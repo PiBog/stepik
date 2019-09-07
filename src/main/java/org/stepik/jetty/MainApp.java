@@ -6,12 +6,14 @@ import org.eclipse.jetty.servlet.ServletHolder;
 import org.stepik.jetty.servlets.RequestHandler;
 
 public class MainApp {
+
     public static void main(String[] args) throws Exception {
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.addServlet(new ServletHolder(new RequestHandler()), RequestHandler.getEndpoint());
         Server server = new Server(8080);
         server.setHandler(context);
         server.start();
+        System.out.println("Server started");
         server.join();
     }
 }
