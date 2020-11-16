@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <jetty.core.version>9.4.20.v20190813</jetty.core.version>
+        <jetty.core.version>9.4.34.v20201102</jetty.core.version>
         <freemarker.version>2.3.29</freemarker.version>
         <log4j.core.version>2.12.1</log4j.core.version>
         <slf4j.version>1.7.26</slf4j.version>
